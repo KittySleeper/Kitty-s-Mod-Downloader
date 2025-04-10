@@ -1,2 +1,0 @@
-function postCreate() add(new FlxSprite(FlxG.width * 0.1, -170, Paths.image("downloadLmao")));
-function update(elapsed) if (FlxG.keys.justPressed.TAB) FlxG.switchState(new ModState("ModsDownloadState"));
